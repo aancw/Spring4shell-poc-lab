@@ -3,6 +3,6 @@
 # This software is released under the MIT License.
 # https://opensource.org/licenses/MIT
 
-FROM tomcat:9.0
+FROM tomcat:9.0.22
 MAINTAINER me
 COPY ./spring_app.war /usr/local/tomcat/webapps/
